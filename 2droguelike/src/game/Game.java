@@ -1,6 +1,6 @@
 package game;
 
-import entity.mob.type.Player;
+import entity.mob.type.player.Player;
 import game.level.Level;
 import game.level.RandomLevel;
 import graphics.Screen;

@@ -1,4 +1,4 @@
-package entity.mob.type;
+package entity.mob.type.player;
 
 import graphics.Screen;
 import graphics.Sprite;

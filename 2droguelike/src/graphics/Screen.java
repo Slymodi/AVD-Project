@@ -1,6 +1,6 @@
 package graphics;
 
-import entity.mob.type.Player;
+import entity.mob.type.player.Player;
 import game.level.tile.Tiles;
 
 import java.util.Random;

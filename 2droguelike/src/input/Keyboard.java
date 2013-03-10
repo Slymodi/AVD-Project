@@ -1,6 +1,6 @@
 package input;
 
-import entity.mob.type.Player;
+import entity.mob.type.player.Player;
 import game.Game;
 
 import java.awt.event.KeyEvent;
