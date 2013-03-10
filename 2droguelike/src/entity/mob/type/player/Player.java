@@ -24,7 +24,6 @@ public class Player extends Mob {
 	public void update() {
 		if (anim < 7500) anim++;
 		else anim =0;
-		//System.out.println("UPDATEING" + y + " " + x);
 		input.update(this);
 		int xa = 0; int ya = 0;
 		if (input.up) ya = -1;

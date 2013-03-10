@@ -18,6 +18,7 @@ public class Sprite {
 	public static Sprite dirt = new Sprite(16,4,0,SpriteSheet.tiles);
 	public static Sprite water = new Sprite(16,5,0,SpriteSheet.tiles);
 	public static Sprite dwater = new Sprite(16,6,0,SpriteSheet.tiles);
+	public static Sprite concrete = new Sprite(16,7,0,SpriteSheet.tiles);
 	public static Sprite VoidSprite = new Sprite(16,0);
 	
 	public static Sprite playerfs =new Sprite(16,0,13,SpriteSheet.tiles);

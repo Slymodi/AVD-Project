@@ -55,6 +55,6 @@ public class Level {
 		if (tiles[x+y*width] == 4) return Tiles.rock;
 		if (tiles[x+y*width] == 5) return Tiles.mineral;
 		if (tiles[x+y*width] == 6) return Tiles.wood;
-		return Tiles.voidtile;
+		return Tiles.concrete;
 	}
 }

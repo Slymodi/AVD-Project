@@ -1,4 +1,4 @@
-package level;
+package game.level;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -13,7 +13,10 @@ public class Configuration {
 	
 	Properties properties = new Properties();
 	int[] level;
-	String path = "resources/levels/level.xml";
+	String path; //= "resources/levels/level.xml";
+	public Configuration(String path) {
+		this.path=path;
+	}
 	public void saveConfiguration(String key, int value) {
 		try {
 			File file = new File(path);
@@ -30,7 +33,7 @@ public class Configuration {
 			e.printStackTrace();
 		}
 		
-
+		
 		
 		
 	}
@@ -40,8 +43,6 @@ public class Configuration {
 			InputStream read = new FileInputStream(path);
 			properties.loadFromXML(read);
 			String Level=properties.getProperty("level");
-			//String width = properties.getProperty("width");
-			//String height = properties.getProperty("height");
 			read.close();
 			String[] levcharr=Level.split(",");
 			level = new int[(levcharr.length)];

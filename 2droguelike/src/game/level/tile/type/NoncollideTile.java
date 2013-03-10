@@ -4,14 +4,12 @@ import game.level.tile.Tiles;
 import graphics.Screen;
 import graphics.Sprite;
 
-public class Dirt extends Tiles{
-	
-	
-	public Dirt(Sprite sprite) {
+public class NoncollideTile extends Tiles{
+
+	public NoncollideTile(Sprite sprite) {
 		super(sprite);
 	}
 	public void render(int x, int y,Screen screen) {
 		screen.renderTile(x << 4, y << 4, this);
-
 	}	
 }
