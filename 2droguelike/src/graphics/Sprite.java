@@ -19,6 +19,22 @@ public class Sprite {
 	public static Sprite water = new Sprite(16,5,0,SpriteSheet.tiles);
 	public static Sprite dwater = new Sprite(16,6,0,SpriteSheet.tiles);
 	public static Sprite concrete = new Sprite(16,7,0,SpriteSheet.tiles);
+	public static Sprite omanhole = new Sprite(16,8,0,SpriteSheet.tiles);
+	public static Sprite cmanhole = new Sprite(16,9,0,SpriteSheet.tiles);
+	public static Sprite road = new Sprite(16,10,0,SpriteSheet.tiles);
+	public static Sprite midroad = new Sprite(16,11,0,SpriteSheet.tiles);
+	public static Sprite cwalk = new Sprite(16,12,0,SpriteSheet.tiles);
+	public static Sprite cwalktop = new Sprite(16,13,0,SpriteSheet.tiles);
+	public static Sprite cwalkleft = new Sprite(16,14,0,SpriteSheet.tiles);
+	public static Sprite cwalkdown = new Sprite(16,15,0,SpriteSheet.tiles);
+	
+	public static Sprite cwalkright = new Sprite(16,0,1,SpriteSheet.tiles);
+	public static Sprite hormidroad = new Sprite(16,1,1,SpriteSheet.tiles);
+	public static Sprite downleftroad = new Sprite(16,3,1,SpriteSheet.tiles);
+	public static Sprite downrightroad = new Sprite(16,2,1,SpriteSheet.tiles);
+	public static Sprite uprightroad = new Sprite(16,4,1,SpriteSheet.tiles);
+	public static Sprite upleftroad = new Sprite(16,5,1,SpriteSheet.tiles);
+
 	public static Sprite VoidSprite = new Sprite(16,0);
 	
 	public static Sprite playerfs =new Sprite(16,0,13,SpriteSheet.tiles);

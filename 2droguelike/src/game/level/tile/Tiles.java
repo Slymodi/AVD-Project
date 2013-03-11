@@ -20,7 +20,21 @@ public class Tiles {
 	public static Tiles dwater = new NoncollideTile(Sprite.dwater);
 	public static Tiles voidtile = new VoidTile(Sprite.VoidSprite);
 	public static Tiles concrete= new NoncollideTile(Sprite.concrete);
-	public static Tiles openManhole= new CollideTile(Sprite.concrete);
+	public static Tiles openManhole= new CollideTile(Sprite.omanhole);
+	public static Tiles closedManhole= new CollideTile(Sprite.cmanhole);
+	public static Tiles Road= new CollideTile(Sprite.road);
+	public static Tiles Midroad= new CollideTile(Sprite.midroad);
+	public static Tiles Cwalk= new CollideTile(Sprite.cwalk);
+	public static Tiles Cwalktop= new CollideTile(Sprite.cwalktop);
+	public static Tiles Cwalkleft= new CollideTile(Sprite.cwalkleft);
+	public static Tiles Cwalkdown= new CollideTile(Sprite.cwalkdown);
+	public static Tiles Cwalkright= new CollideTile(Sprite.cwalkright);
+	public static Tiles midhorroad= new CollideTile(Sprite.hormidroad);
+	public static Tiles downrightroad= new CollideTile(Sprite.downrightroad);
+	public static Tiles downleftroad= new CollideTile(Sprite.downleftroad);
+	public static Tiles uprightroad= new CollideTile(Sprite.uprightroad);
+	public static Tiles upleftroad= new CollideTile(Sprite.upleftroad);
+
 
 	public Tiles(Sprite sprite) {
 		this.sprite = sprite;
